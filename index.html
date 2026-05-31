@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mounika K | Data Scientist & GenAI / Backend Developer</title>
+    <meta name="description" content="Portfolio of Mounika K, a Data Science Graduate and Backend Developer specializing in GenAI Chatbots, Machine Learning, FastAPI, MongoDB, Docker, and AWS.">
+    <meta name="keywords" content="Data Scientist, Backend Developer, GenAI, LangChain, FastAPI, Python, SQL, Machine Learning, Portfolio, Exafluence">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mounika K | Data Scientist & GenAI / Backend Developer">
+    <meta property="og:description" content="Explore Mounika's projects in GenAI ETL debugging, supply chain management, electricity forecasting, and customer clustering.">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css?v=1.3">
+</head>
+<body class="dark-theme">
+    <!-- Interactive Background Particle Canvas -->
+    <canvas id="particle-canvas" class="particle-canvas"></canvas>
+    
+    <!-- Background Canvas/Grid elements for visual premium feel -->
+    <div class="bg-grid"></div>
+    <div class="bg-blur blur-1"></div>
+    <div class="bg-blur blur-2"></div>
+
+    <!-- Header / Navigation -->
+    <header id="header" class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo" id="nav-logo">
+                <span class="accent">&lt;</span>Mounika<span class="accent">.K/&gt;</span>
+            </a>
+            
+            <nav class="navbar" id="navbar">
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active" id="link-home">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" id="link-about">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link" id="link-skills">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link" id="link-projects">Projects</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link" id="link-experience">Experience</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-sun sun-icon"></i>
+                    <i class="fas fa-moon moon-icon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content reveal-item">
+                    <span class="hello-tag" id="hero-hello">Hello, I'm</span>
+                    <h1 class="hero-title" id="hero-title">Mounika K</h1>
+                    <h2 class="hero-subtitle" id="hero-subtitle">
+                        I'm a <span class="typing-text" id="typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-desc" id="hero-desc">
+                        MS in Data Science graduate with expertise in data analysis, Python, SQL, statistical analysis, and machine learning models. Experienced in building high-performance APIs, real-time data pipelines, and GenAI chatbot assistants.
+                    </p>
+                    <div class="status-badges-container">
+                        <div class="availability-badge-hero">
+                            <span class="pulse-dot"></span> Open to: Full-time · Internship · Freelance
+                        </div>
+                        <div class="location-badge-hero">
+                            <i class="fas fa-map-marker-alt"></i> Preferred: Bangalore · Hyderabad · Chennai
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary" id="btn-view-work">
+                            Explore Projects <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="btn-contact-me">Let's Connect</a>
+                    </div>
+                    <div class="social-links hero-socials">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://hackerrank.com" target="_blank" rel="noopener noreferrer" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                        <a href="mailto:mounika062002@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-item" data-delay="200">
+                    <div class="visual-container">
+                        <!-- Abstract floating items -->
+                        <div class="floating-icon icon-1"><i class="fab fa-python"></i></div>
+                        <div class="floating-icon icon-2"><i class="fas fa-database"></i></div>
+                        <div class="floating-icon icon-3"><i class="fab fa-docker"></i></div>
+                        <div class="floating-icon icon-4"><i class="fab fa-brain"></i></div>
+                        
+                        <div class="glowing-sphere"></div>
+                        <div class="terminal-widget tilt-card">
+                            <div class="terminal-widget-header">
+                                <div class="terminal-buttons">
+                                    <span class="term-dot close"></span>
+                                    <span class="term-dot minimize"></span>
+                                    <span class="term-dot maximize"></span>
+                                </div>
+                                <div class="terminal-title">mounika@datascience-ops:~</div>
+                            </div>
+                            <div class="terminal-widget-nav">
+                                <button class="console-btn active" data-sim="pipeline">
+                                    <i class="fas fa-project-diagram"></i> Ingestion
+                                </button>
+                                <button class="console-btn" data-sim="chatbot">
+                                    <i class="fas fa-comments"></i> RAG Bot
+                                </button>
+                                <button class="console-btn" data-sim="model">
+                                    <i class="fas fa-chart-line"></i> Forecast
+                                </button>
+                            </div>
+                            <div class="terminal-widget-content">
+                                <div id="terminal-lines" class="terminal-lines">
+                                    <!-- Simulations type dynamically here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" aria-label="Scroll Down">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                    <span class="arrow-down"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">My Background</span>
+                    <h2 class="title">About Me</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-img-box reveal-item" data-delay="100">
+                        <div class="img-wrapper">
+                            <div class="tech-stack-overlay">
+                                <div class="stat-badge">
+                                    <span class="stat-num">MS</span>
+                                    <span class="stat-lbl">Data Science</span>
+                                </div>
+                            </div>
+                            <div class="about-decoration"></div>
+                        </div>
+                    </div>
+                    <div class="about-info reveal-item" data-delay="200">
+                        <h3>Translating complex data into actionable digital insights</h3>
+                        
+                        <!-- Interactive Tabs Navigation -->
+                        <div class="about-tabs-nav">
+                            <button class="about-tab-btn active" data-tab="journey">
+                                <i class="fas fa-compass"></i> My Journey
+                            </button>
+                            <button class="about-tab-btn" data-tab="focus">
+                                <i class="fas fa-brain"></i> Core Focus
+                            </button>
+                            <button class="about-tab-btn" data-tab="education">
+                                <i class="fas fa-graduation-cap"></i> Education
+                            </button>
+                        </div>
+                        
+                        <!-- Interactive Tabs Content Deck -->
+                        <div class="about-tabs-content">
+                            <!-- Tab Panel 1: Journey -->
+                            <div class="about-tab-panel active" id="tab-panel-journey">
+                                <p>
+                                    I'm a Data Scientist and Backend Developer based in Andhra Pradesh, India. I specialize in parsing massive datasets, building statistical models, containerizing applications, and integrating real-time streaming solutions to solve concrete business challenges.
+                                </p>
+                                <p>
+                                    Recently, I completed my MS in Data Science and worked as an intern at Exafluence, where I built Shipment Management Systems (SCMLite) and generative AI diagnostic chatbots to troubleshoot ETL pipeline failures.
+                                </p>
+                                
+                                <div class="facts-grid">
+                                    <div class="fact-card tilt-card">
+                                        <i class="fas fa-chart-line"></i>
+                                        <h4>Data Science & Analytics</h4>
+                                        <p>Exploratory data analysis, forecasting models (ARIMA, LSTM), and cluster segmentations.</p>
+                                    </div>
+                                    <div class="fact-card tilt-card">
+                                        <i class="fas fa-server"></i>
+                                        <h4>Backend & GenAI</h4>
+                                        <p>FastAPI development, MongoDB schemas, LangChain architectures, and Docker on AWS.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Tab Panel 2: Focus Areas -->
+                            <div class="about-tab-panel" id="tab-panel-focus">
+                                <p class="focus-intro">
+                                    My data science and backend engineering capabilities span three core domains, developed through internships, academic projects, and freelance engagements:
+                                </p>
+                                <div class="focus-rings-container">
+                                    <div class="focus-ring-item">
+                                        <div class="circular-progress" style="background: conic-gradient(var(--primary-color) 316.8deg, var(--border-color) 0deg);">
+                                            <div class="value-container">88%</div>
+                                        </div>
+                                        <span>Machine Learning</span>
+                                    </div>
+                                    <div class="focus-ring-item">
+                                        <div class="circular-progress" style="background: conic-gradient(var(--secondary-color) 306deg, var(--border-color) 0deg);">
+                                            <div class="value-container">85%</div>
+                                        </div>
+                                        <span>GenAI & NLP</span>
+                                    </div>
+                                    <div class="focus-ring-item">
+                                        <div class="circular-progress" style="background: conic-gradient(var(--primary-color) 324deg, var(--border-color) 0deg);">
+                                            <div class="value-container">90%</div>
+                                        </div>
+                                        <span>Backend API & Docker</span>
+                                    </div>
+                                </div>
+                                <div class="focus-details-grid">
+                                    <div class="focus-detail-card tilt-card">
+                                        <i class="fas fa-microchip"></i>
+                                        <h5>GenAI Pipelines</h5>
+                                        <p>LangChain, GPT-4, Vector DBs, RAG diagnostic tools, chatbot recommenders.</p>
+                                    </div>
+                                    <div class="focus-detail-card tilt-card">
+                                        <i class="fas fa-bezier-curve"></i>
+                                        <h5>Computer Vision</h5>
+                                        <p>YOLOv8/v9 training, MediaPipe Face Mesh, OpenCV camera fallbacks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Tab Panel 3: Education -->
+                            <div class="about-tab-panel" id="tab-panel-education">
+                                <div class="education-block">
+                                    <div class="edu-item">
+                                        <div class="edu-meta">
+                                            <span class="edu-degree">Masters in Data Science</span>
+                                            <span class="edu-years">2023 — 2025</span>
+                                        </div>
+                                        <span class="edu-inst">Sri Venkateswara University (SVU), Tirupati | SGPA: 75%</span>
+                                    </div>
+                                    <div class="edu-item">
+                                        <div class="edu-meta">
+                                            <span class="edu-degree">BSc MSCS (Maths, Stats, Comp Sci)</span>
+                                            <span class="edu-years">2021 — 2023</span>
+                                        </div>
+                                        <span class="edu-inst">Gayathri Degree College, Tirupati | CGPA: 75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="Mounika_K_DataScience_Resume.pdf" download class="btn btn-primary" id="btn-download-resume" style="margin-top: 28px;">
+                            Download CV / Resume <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">Expertise</span>
+                    <h2 class="title">Skills & Technologies</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="skills-hub reveal-item">
+                    <!-- Left Panel: Skill Cards List -->
+                    <div class="skills-selector-panel">
+                        <div class="skills-categories-tabs">
+                            <button class="skill-cat-tab active" data-cat="ai-ml"><i class="fas fa-brain"></i> AI & ML</button>
+                            <button class="skill-cat-tab" data-cat="backend"><i class="fas fa-laptop-code"></i> Backend & SQL</button>
+                            <button class="skill-cat-tab" data-cat="data-eng"><i class="fas fa-project-diagram"></i> Data Eng</button>
+                            <button class="skill-cat-tab" data-cat="analytics"><i class="fas fa-chart-pie"></i> Analytics</button>
+                        </div>
+                        
+                        <!-- AI & ML Container -->
+                        <div class="skills-list-container active" id="skills-list-ai-ml">
+                            <div class="skill-pill-card active" data-skill="genai">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-magic"></i> Generative AI & LLMs</span>
+                                    <span class="skill-pill-val">88%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 88%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="cv">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-eye"></i> Computer Vision</span>
+                                    <span class="skill-pill-val">85%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 85%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="forecasting">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-chart-line"></i> Time Series Forecast</span>
+                                    <span class="skill-pill-val">84%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 84%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="ml">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-cogs"></i> Machine Learning</span>
+                                    <span class="skill-pill-val">88%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 88%"></span></div>
+                            </div>
+                        </div>
+
+                        <!-- Backend & SQL Container -->
+                        <div class="skills-list-container" id="skills-list-backend">
+                            <div class="skill-pill-card" data-skill="python">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fab fa-python"></i> Python (FastAPI)</span>
+                                    <span class="skill-pill-val">90%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 90%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="sql">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-database"></i> SQL Querying</span>
+                                    <span class="skill-pill-val">85%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 85%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="html_css">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fab fa-html5"></i> HTML5 / CSS3</span>
+                                    <span class="skill-pill-val">75%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 75%"></span></div>
+                            </div>
+                        </div>
+
+                        <!-- Data Eng Container -->
+                        <div class="skills-list-container" id="skills-list-data-eng">
+                            <div class="skill-pill-card" data-skill="pandas">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-table"></i> Pandas, NumPy, Scikit</span>
+                                    <span class="skill-pill-val">88%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 88%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="docker">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fab fa-docker"></i> Docker & AWS Deploy</span>
+                                    <span class="skill-pill-val">78%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 78%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="kafka">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-random"></i> Kafka & ZooKeeper</span>
+                                    <span class="skill-pill-val">70%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 70%"></span></div>
+                            </div>
+                        </div>
+
+                        <!-- Analytics Container -->
+                        <div class="skills-list-container" id="skills-list-analytics">
+                            <div class="skill-pill-card" data-skill="mongodb">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-leaf"></i> MongoDB</span>
+                                    <span class="skill-pill-val">85%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 85%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="bi">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-chart-pie"></i> Power BI & Tableau</span>
+                                    <span class="skill-pill-val">80%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 80%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="excel">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fas fa-file-excel"></i> Excel & Statistics</span>
+                                    <span class="skill-pill-val">85%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 85%"></span></div>
+                            </div>
+                            <div class="skill-pill-card" data-skill="git">
+                                <div class="skill-pill-header">
+                                    <span class="skill-pill-name"><i class="fab fa-git-alt"></i> Version Control (Git)</span>
+                                    <span class="skill-pill-val">90%</span>
+                                </div>
+                                <div class="skill-pill-bar"><span class="skill-pill-fill" style="width: 90%"></span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Panel: Skill Sandbox Visualizer Console -->
+                    <div class="skills-sandbox-panel tilt-card">
+                        <div class="sandbox-header">
+                            <div class="sandbox-controls">
+                                <span class="term-dot close"></span>
+                                <span class="term-dot minimize"></span>
+                                <span class="term-dot maximize"></span>
+                            </div>
+                            <span class="sandbox-title">Skill-Playground.ipynb [Interactive]</span>
+                        </div>
+                        <div class="sandbox-content">
+                            <div class="sandbox-meta">
+                                <h3 id="sandbox-skill-name">Generative AI & LLMs</h3>
+                                <div class="sandbox-stats">
+                                    <span class="stat-badge-mini" id="sandbox-skill-level">Proficiency: Senior</span>
+                                    <span class="stat-badge-mini" id="sandbox-skill-exp">Exp: 1+ Years</span>
+                                </div>
+                            </div>
+
+                            <!-- Mock Jupyter Notebook Input Cell -->
+                            <div class="sandbox-cell cell-input">
+                                <div class="cell-label">In [1]:</div>
+                                <div class="cell-editor">
+                                    <pre><code id="sandbox-code-display" class="python-snippet"># Preloading code snippet...</code></pre>
+                                </div>
+                            </div>
+
+                            <!-- Interactive Run Button -->
+                            <div class="sandbox-actions">
+                                <button class="btn-run-sandbox" id="btn-run-sandbox">
+                                    <i class="fas fa-play"></i> Run Code Simulation
+                                </button>
+                                <span class="sandbox-tips"><i class="fas fa-lightbulb"></i> Click to execute model pipeline output!</span>
+                            </div>
+
+                            <!-- Mock Jupyter Notebook Output Cell -->
+                            <div class="sandbox-cell cell-output" id="sandbox-cell-output" style="display: none;">
+                                <div class="cell-label">Out [1]:</div>
+                                <div class="cell-console-output" id="sandbox-console-output">
+                                    <!-- Output text and logs load dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">Recent Works</span>
+                    <h2 class="title">My Projects</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <!-- Project Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ds-ml">Data Science & ML</button>
+                    <button class="filter-btn" data-filter="backend">Backend & GenAI</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Glow Up Project -->
+                    <div class="project-card tilt-card reveal-item" data-delay="100" data-category="ds-ml backend">
+                        <div class="project-img-container">
+                            <img src="assets/project_glowup.png" alt="Glow Up AI Skin Analysis Platform" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">Computer Vision & Backend</span>
+                                <span class="project-accuracy"><i class="fas fa-bullseye"></i> 94.2% mAP</span>
+                            </div>
+                            <h3>Glow Up: AI Skin Analysis & Dermatologist Platform</h3>
+                            <p>A freelance dermatologist platform that recommends skincare products based on skin type. Built a comprehensive skin analysis pipeline utilizing MediaPipe Face Mesh, OpenCV Haar Cascade (fallback), and YOLOv8/v9 models for acne and blemish detection, connected to a custom FastAPI backend structure.</p>
+                            <div class="project-tags">
+                                <span class="tag">MediaPipe</span>
+                                <span class="tag">YOLOv8 & YOLOv9</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">Skincare Chatbot</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 1 -->
+                    <div class="project-card tilt-card reveal-item" data-delay="200" data-category="backend">
+                        <div class="project-img-container">
+                            <img src="assets/project_dashboard.png" alt="SCMLite Shipment Management System" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">Backend / Supply Chain</span>
+                                <span class="project-accuracy"><i class="fas fa-server"></i> 99.98% Uptime</span>
+                            </div>
+                            <h3>SCMLite Shipment Management</h3>
+                            <p>Built a full-stack Supply Chain Management system with FastAPI and MongoDB for shipment tracking and secure user access during my internship at Exafluence. Developed REST APIs and an HTML/CSS UI, implemented JWT-based role access, containerized with Docker, deployed on AWS EC2, and integrated Apache Kafka and Apache ZooKeeper for real-time streaming and coordination.</p>
+                            <div class="project-tags">
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">Kafka</span>
+                                <span class="tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card tilt-card reveal-item" data-delay="300" data-category="backend">
+                        <div class="project-img-container">
+                            <img src="assets/project_audio.png" alt="GenAI ETL Debugger Chatbot" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">GenAI / Chatbot</span>
+                                <span class="project-accuracy"><i class="fas fa-brain"></i> 96.5% Precision</span>
+                            </div>
+                            <h3>ETL Querying & Debugging Assistant</h3>
+                            <p>Designed a GenAI assistant that analyzes ETL workflow and error logs stored in PostgreSQL to diagnose pipeline failures through natural language queries. Integrated LLM workflows to interpret errors, correlate them with workflow steps, and identify root causes. The system provides automated fix suggestions and actionable recommendations to speed up troubleshooting for data engineers.</p>
+                            <div class="project-tags">
+                                <span class="tag">LangChain</span>
+                                <span class="tag">GPT-4</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ATS Score Check Project -->
+                    <div class="project-card tilt-card reveal-item" data-delay="200" data-category="ds-ml backend">
+                        <div class="project-img-container interactive-container">
+                            <div class="ats-widget" id="ats-widget">
+                                <div class="ats-header">
+                                    <span>ATS Resume Analyzer</span>
+                                    <span class="ats-status"><i class="fas fa-microchip"></i> NLP Parser</span>
+                                </div>
+                                <div class="ats-body">
+                                    <div class="ats-score-container">
+                                        <svg class="ats-score-ring" viewBox="0 0 100 100">
+                                            <circle class="ring-bg" cx="50" cy="50" r="40" />
+                                            <circle class="ring-fill" id="ats-ring-fill" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2" />
+                                        </svg>
+                                        <div class="ats-score-text">
+                                            <span id="ats-percentage">--</span>
+                                            <span class="ats-label">Match Score</span>
+                                        </div>
+                                    </div>
+                                    <div class="ats-keywords-container">
+                                        <div class="keyword-group">
+                                            <span class="group-title">Matched (3)</span>
+                                            <div class="keyword-tags">
+                                                <span class="tag-match"><i class="fas fa-check"></i> Python</span>
+                                                <span class="tag-match"><i class="fas fa-check"></i> FastAPI</span>
+                                                <span class="tag-match"><i class="fas fa-check"></i> SQL</span>
+                                            </div>
+                                        </div>
+                                        <div class="keyword-group">
+                                            <span class="group-title">Suggested (2)</span>
+                                            <div class="keyword-tags">
+                                                <span class="tag-suggest" id="suggest-tag-1"><i class="fas fa-plus"></i> Docker</span>
+                                                <span class="tag-suggest" id="suggest-tag-2"><i class="fas fa-plus"></i> Kafka</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="ats-analyze-btn" id="ats-analyze-btn">
+                                    <i class="fas fa-sync-alt"></i> Analyze Resume
+                                </button>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/Mounika06602/Resume_ATS_Score_Check" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">NLP & Data Science</span>
+                                <span class="project-accuracy"><i class="fas fa-bullseye"></i> 98.2% Parsing Accuracy</span>
+                            </div>
+                            <h3>AI-Powered ATS Resume Scorer</h3>
+                            <p>Built an intelligent Applicant Tracking System (ATS) resume scorer that extracts text from PDF/Word resumes and evaluates their alignment against job descriptions. Developed matching logic using NLP tokenization, TF-IDF vectorization, and cosine similarity calculations, outputting match scores and actionable keyword recommendations to optimize resumes for hiring pipelines.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Natural Language Processing (NLP)</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">Scikit-Learn</span>
+                                <span class="tag">Cosine Similarity</span>
+                                <span class="tag">PyPDF2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card tilt-card reveal-item" data-delay="100" data-category="ds-ml">
+                        <div class="project-img-container interactive-container">
+                            <!-- Delhi Power SVG Widget -->
+                            <div class="power-widget" id="power-widget">
+                                <div class="widget-header-overlay">
+                                    <span>Live Forecaster (Delhi Grid)</span>
+                                    <div class="duck-indicator"><i class="fas fa-sun"></i> Solar Input Active</div>
+                                </div>
+                                <svg class="power-svg" viewBox="0 0 340 180">
+                                    <defs>
+                                        <linearGradient id="gradient-grid" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="var(--primary-color)" stop-opacity="0.3"/>
+                                            <stop offset="100%" stop-color="var(--primary-color)" stop-opacity="0"/>
+                                        </linearGradient>
+                                        <linearGradient id="gradient-solar" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="var(--secondary-color)" stop-opacity="0.2"/>
+                                            <stop offset="100%" stop-color="var(--secondary-color)" stop-opacity="0"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <!-- Grid lines -->
+                                    <line x1="30" y1="20" x2="330" y2="20" stroke="rgba(255,255,255,0.05)" stroke-dasharray="2,2"/>
+                                    <line x1="30" y1="70" x2="330" y2="70" stroke="rgba(255,255,255,0.05)" stroke-dasharray="2,2"/>
+                                    <line x1="30" y1="120" x2="330" y2="120" stroke="rgba(255,255,255,0.05)" stroke-dasharray="2,2"/>
+                                    <line x1="30" y1="150" x2="330" y2="150" stroke="rgba(255,255,255,0.1)"/>
+                                    
+                                    <!-- Area charts -->
+                                    <path class="chart-area-solar" d="M 30,150 Q 80,100 130,50 T 230,150 Z" fill="url(#gradient-solar)"/>
+                                    <path class="chart-area-grid" d="M 30,120 Q 80,140 130,150 T 230,80 T 330,60" fill="none" stroke="var(--primary-color)" stroke-width="2.5" class="graph-line"/>
+                                    
+                                    <!-- Solar graph path -->
+                                    <path d="M 30,150 Q 80,100 130,50 T 230,150" fill="none" stroke="var(--secondary-color)" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                    
+                                    <!-- Interactive elements -->
+                                    <line class="tracker-line" x1="-10" y1="10" x2="-10" y2="150" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1"/>
+                                    <circle class="tracker-point" cx="-10" cy="-10" r="4" fill="var(--primary-color)" stroke="white" stroke-width="1.5"/>
+                                </svg>
+                                <div class="power-tooltip" id="power-tooltip">
+                                    <span class="time">Time: 12:00</span>
+                                    <span class="load">Demand: 4,800 MW</span>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">Data Science / Forecasting</span>
+                                <span class="project-accuracy"><i class="fas fa-chart-line"></i> 0.941 R² / 2.14 RMSE</span>
+                            </div>
+                            <h3>Delhi Power Demand Projection</h3>
+                            <p>Developed time series forecasting models to analyze and predict Delhi power Supply Demand patterns, addressing the Duck Curve effect caused by fluctuating solar energy generation and peak evening consumption. Utilized ARIMA, LSTM and Facebook Prophet models in Python, with Pandas, Scikit-Learn, TensorFlow and Matplotlib for data preprocessing, modeling and visualization.</p>
+                            <div class="project-tags">
+                                <span class="tag">ARIMA</span>
+                                <span class="tag">LSTM</span>
+                                <span class="tag">Prophet</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card tilt-card reveal-item" data-delay="200" data-category="backend">
+                        <div class="project-img-container interactive-container">
+                            <!-- Smart Notes Workspace Widget -->
+                            <div class="notes-widget" id="notes-widget">
+                                <div class="widget-header-overlay">
+                                    <span>Notes Ingest Sandbox</span>
+                                    <button class="add-note-btn" id="add-note-btn"><i class="fas fa-plus"></i> New Note</button>
+                                </div>
+                                <div class="notes-workspace" id="notes-workspace">
+                                    <div class="mini-note" style="top: 36px; left: 10px; background: rgba(59, 130, 246, 0.25); border-color: rgba(59, 130, 246, 0.4);">
+                                        <div class="mini-note-header">
+                                            <span class="note-pin"></span>
+                                            <button class="delete-note-btn"><i class="fas fa-times"></i></button>
+                                        </div>
+                                        <div class="mini-note-body" contenteditable="true">Deploy SCMLite FastAPI to AWS EC2.</div>
+                                    </div>
+                                    <div class="mini-note" style="top: 50px; right: 10px; background: rgba(168, 85, 247, 0.25); border-color: rgba(168, 85, 247, 0.4);">
+                                        <div class="mini-note-header">
+                                            <span class="note-pin"></span>
+                                            <button class="delete-note-btn"><i class="fas fa-times"></i></button>
+                                        </div>
+                                        <div class="mini-note-body" contenteditable="true">Configure Kafka cluster brokers topic.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">Backend / Auth</span>
+                                <span class="project-accuracy"><i class="fas fa-shield-alt"></i> 100% CRUD Security</span>
+                            </div>
+                            <h3>Smart Notes Application</h3>
+                            <p>Created a secure Notes Management application with FastAPI and MongoDB supporting full CRUD operations and user authentication. Designed REST APIs and a clean HTML/CSS frontend for easy note management. Dockerized the application and deployed it on AWS EC2 to ensure portability and reliable performance. Focused on modular backend structure and efficient database handling.</p>
+                            <div class="project-tags">
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">AWS EC2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card tilt-card reveal-item" data-delay="300" data-category="ds-ml">
+                        <div class="project-img-container interactive-container">
+                            <!-- Customer Segmentation Clustering Widget -->
+                            <div class="segment-widget" id="segment-widget">
+                                <div class="widget-header-overlay">
+                                    <span>Cluster Classifier (K-Means)</span>
+                                    <button class="run-kmeans-btn" id="run-kmeans-btn"><i class="fas fa-sync-alt"></i> Run K-Means</button>
+                                </div>
+                                <svg class="segment-svg" viewBox="0 0 340 180" id="segment-svg">
+                                    <!-- Grid scatter coordinates -->
+                                    <circle class="cluster-dot" cx="70" cy="50" r="5" data-cluster="A" style="--orig-x: 70px; --orig-y: 50px;"/>
+                                    <circle class="cluster-dot" cx="85" cy="70" r="5" data-cluster="A" style="--orig-x: 85px; --orig-y: 70px;"/>
+                                    <circle class="cluster-dot" cx="110" cy="45" r="5" data-cluster="A" style="--orig-x: 110px; --orig-y: 45px;"/>
+                                    <circle class="cluster-dot" cx="95" cy="35" r="5" data-cluster="A" style="--orig-x: 95px; --orig-y: 35px;"/>
+                                    
+                                    <circle class="cluster-dot" cx="240" cy="110" r="5" data-cluster="B" style="--orig-x: 240px; --orig-y: 110px;"/>
+                                    <circle class="cluster-dot" cx="265" cy="130" r="5" data-cluster="B" style="--orig-x: 265px; --orig-y: 130px;"/>
+                                    <circle class="cluster-dot" cx="220" cy="140" r="5" data-cluster="B" style="--orig-x: 220px; --orig-y: 140px;"/>
+                                    <circle class="cluster-dot" cx="280" cy="105" r="5" data-cluster="B" style="--orig-x: 280px; --orig-y: 105px;"/>
+                                    
+                                    <circle class="cluster-dot" cx="160" cy="90" r="5" data-cluster="C" style="--orig-x: 160px; --orig-y: 90px;"/>
+                                    <circle class="cluster-dot" cx="180" cy="115" r="5" data-cluster="C" style="--orig-x: 180px; --orig-y: 115px;"/>
+                                    <circle class="cluster-dot" cx="150" cy="120" r="5" data-cluster="C" style="--orig-x: 150px; --orig-y: 120px;"/>
+                                    
+                                    <!-- Centroids (Initially hidden or transparent) -->
+                                    <polygon class="centroid-marker" points="90,50 95,40 85,40" id="centroid-A" fill="none" stroke="#3b82f6" stroke-width="2"/>
+                                    <polygon class="centroid-marker" points="250,120 255,110 245,110" id="centroid-B" fill="none" stroke="#a855f7" stroke-width="2"/>
+                                    <polygon class="centroid-marker" points="163,108 168,98 158,98" id="centroid-C" fill="none" stroke="#00f2fe" stroke-width="2"/>
+                                </svg>
+                                <div class="segment-tooltip" id="segment-tooltip">Hover customer dot</div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">Machine Learning / Clustering</span>
+                                <span class="project-accuracy"><i class="fas fa-users"></i> 0.614 Silhouette</span>
+                            </div>
+                            <h3>Customer Segmentation Analysis</h3>
+                            <p>Performed customer segmentation on 10,000+ records using clustering algorithms to identify distinct behavioral groups. Applied data cleaning, normalization, and feature selection for improved clustering performance. Determined optimal clusters using Elbow Method and Silhouette Score. Generated visual insights that supported targeted marketing strategies and increased engagement by 30%.</p>
+                            <div class="project-tags">
+                                <span class="tag">K-Means</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">Seaborn</span>
+                                <span class="tag">Scikit-Learn</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card tilt-card reveal-item" data-delay="100" data-category="ds-ml">
+                        <div class="project-img-container interactive-container">
+                            <!-- COVID-19 Dashboard Sandbox Widget -->
+                            <div class="covid-widget" id="covid-widget">
+                                <div class="widget-header-overlay">
+                                    <span>WHO Epidemic Tracker</span>
+                                    <div class="covid-nav">
+                                        <button class="covid-btn active" data-region="global">Global</button>
+                                        <button class="covid-btn" data-region="asia">Asia</button>
+                                        <button class="covid-btn" data-region="europe">Europe</button>
+                                    </div>
+                                </div>
+                                <div class="covid-content">
+                                    <div class="covid-metrics">
+                                        <div class="metric-box">
+                                            <span class="m-title">Total Cases</span>
+                                            <span class="m-val" id="covid-cases">772M</span>
+                                        </div>
+                                        <div class="metric-box">
+                                            <span class="m-title">Total Deaths</span>
+                                            <span class="m-val" id="covid-deaths">6.98M</span>
+                                        </div>
+                                    </div>
+                                    <div class="covid-chart-mock">
+                                        <div class="covid-bar-item">
+                                            <div class="covid-bar" id="bar-cases" style="height: 90%;"></div>
+                                            <span>Cases</span>
+                                        </div>
+                                        <div class="covid-bar-item">
+                                            <div class="covid-bar" id="bar-deaths" style="height: 35%; background: var(--secondary-color);"></div>
+                                            <span>Deaths</span>
+                                        </div>
+                                        <div class="covid-bar-item">
+                                            <div class="covid-bar" id="bar-recovered" style="height: 75%; background: #10b981;"></div>
+                                            <span>Recovered</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="GitHub Source"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta-row">
+                                <span class="project-cat">Data Viz / APIs</span>
+                                <span class="project-accuracy"><i class="fas fa-globe"></i> 99.9% Sync Precision</span>
+                            </div>
+                            <h3>Covid-19 Global Dashboard</h3>
+                            <p>Built an interactive dashboard using Python and Tableau to analyze global COVID-19 data from WHO and public APIs. Developed heatmaps, time-series charts, and comparative visuals for region-wise analysis. Enabled dynamic filtering and trend exploration to support data-driven insights and reporting.</p>
+                            <div class="project-tags">
+                                <span class="tag">Tableau</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">REST APIs</span>
+                                <span class="tag">Data Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">Career Milestones</span>
+                    <h2 class="title">Work & Internships</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal-item" data-delay="100">
+                        <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content tilt-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">Dec 2025 - Present</span>
+                                <span class="experience-type-badge">Freelance / Remote</span>
+                            </div>
+                            <h3>Freelance ML & Backend Developer</h3>
+                            <span class="company-name"><i class="fas fa-building"></i> Glow Up Startup</span>
+                            <ul class="experience-bullets">
+                                <li><strong>AI Skin Analysis Pipeline:</strong> Architected face mesh mapping utilizing MediaPipe Face Mesh, OpenCV Haar Cascades (fallback), and custom YOLOv8/v9 weights, achieving 94.2% mAP for acne blemish localization.</li>
+                                <li><strong>FastAPI API Core:</strong> Developed secure, scalable backend REST endpoints to serve model diagnostics and skincare product recommendation queries.</li>
+                                <li><strong>GenAI RAG Recommender:</strong> Integrated a conversational agent to parse skin profiles and recommend products dynamically.</li>
+                            </ul>
+                            <div class="experience-tags">
+                                <span class="exp-tag">YOLOv9</span>
+                                <span class="exp-tag">MediaPipe</span>
+                                <span class="exp-tag">OpenCV</span>
+                                <span class="exp-tag">FastAPI</span>
+                                <span class="exp-tag">LangChain</span>
+                                <span class="exp-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal-item" data-delay="200">
+                        <div class="timeline-dot"><i class="fas fa-laptop-code"></i></div>
+                        <div class="timeline-content tilt-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">June 2025 - Nov 2025</span>
+                                <span class="experience-type-badge">Internship / Remote</span>
+                            </div>
+                            <h3>Data Science Intern</h3>
+                            <span class="company-name"><i class="fas fa-building"></i> Exafluence Pvt. Ltd. (Tirupati, AP)</span>
+                            <ul class="experience-bullets">
+                                <li><strong>Shipment Tracking (SCMLite):</strong> Programmed supply chain tracking endpoints with FastAPI, MongoDB, and real-time Kafka event streaming, maintaining 99.98% stream ingestion uptime.</li>
+                                <li><strong>ETL Diagnosis chatbot:</strong> Constructed a LangChain GPT-4 conversational debugger to parse Airflow/NiFi error logs, reaching 96.5% isolation precision for root-cause failures.</li>
+                                <li><strong>DevOps Containerization:</strong> Built multi-stage Docker builds and coordinated EC2 deployment instances on AWS.</li>
+                            </ul>
+                            <div class="experience-tags">
+                                <span class="exp-tag">FastAPI</span>
+                                <span class="exp-tag">MongoDB</span>
+                                <span class="exp-tag">Kafka</span>
+                                <span class="exp-tag">Docker</span>
+                                <span class="exp-tag">AWS EC2</span>
+                                <span class="exp-tag">LangChain</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item reveal-item" data-delay="300">
+                        <div class="timeline-dot"><i class="fas fa-cloud"></i></div>
+                        <div class="timeline-content tilt-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">May 2023 - Sept 2023</span>
+                                <span class="experience-type-badge">Internship</span>
+                            </div>
+                            <h3>Salesforce Developer Intern</h3>
+                            <span class="company-name"><i class="fas fa-building"></i> Salesforce</span>
+                            <ul class="experience-bullets">
+                                <li><strong>Apex Workflows:</strong> Customized triggers, validations, and custom controller actions inside Salesforce Sales and Service Cloud CRM modules.</li>
+                                <li><strong>Process Automation:</strong> Designed and deployed automated business flows using Process Builder and Flow diagrams.</li>
+                                <li><strong>Lightning Layouts:</strong> Crafted responsive user layouts with Lightning App Builder and custom Web Components (LWC).</li>
+                            </ul>
+                            <div class="experience-tags">
+                                <span class="exp-tag">Salesforce</span>
+                                <span class="exp-tag">Apex</span>
+                                <span class="exp-tag">Lightning Components</span>
+                                <span class="exp-tag">Flows</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Publications Section -->
+        <section id="certifications" class="certifications-section section-padding" style="background: var(--bg-panel); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">Honors & Achievements</span>
+                    <h2 class="title">Certifications & Papers</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="about-grid" style="align-items: flex-start; gap: 40px;">
+                    <!-- Certifications Panel -->
+                    <div>
+                        <h3 style="font-family: var(--font-heading); font-size: 22px; margin-bottom: 20px; color: var(--primary-color); display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-certificate"></i> Certifications
+                        </h3>
+                        <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px;">
+                            <li style="display: flex; gap: 10px; font-size: 14px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-top: 4px;"></i> Salesforce Certified Developer</li>
+                            <li style="display: flex; gap: 10px; font-size: 14px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-top: 4px;"></i> MongoDB Certified Professional</li>
+                            <li style="display: flex; gap: 10px; font-size: 14px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-top: 4px;"></i> Oracle University Certified Data Science Professional</li>
+                            <li style="display: flex; gap: 10px; font-size: 14px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-top: 4px;"></i> Cisco Academy: Introduction to Modern AI & Data Science</li>
+                            <li style="display: flex; gap: 10px; font-size: 14px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-top: 4px;"></i> Simplilearn / SkillUp: GitHub Version Control Certification</li>
+                            <li style="display: flex; gap: 10px; font-size: 14px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-top: 4px;"></i> Forage: Deloitte Data Analytics Job Simulation</li>
+                            <li style="display: flex; gap: 10px; font-size: 14px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-top: 4px;"></i> ISRO: AI/ML Workshop for Agricultural Forecasting</li>
+                        </ul>
+                    </div>
+
+                    <!-- Publications Panel -->
+                    <div>
+                        <h3 style="font-family: var(--font-heading); font-size: 22px; margin-bottom: 20px; color: var(--secondary-color); display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-book-open"></i> Publications & Research
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <div style="background: var(--bg-color); border: 1px solid var(--border-color); padding: 16px; border-radius: var(--border-radius-md);">
+                                <h4 style="font-family: var(--font-heading); font-size: 15px; font-weight: 700; margin-bottom: 4px;">Paper: AI-Enabled Ethical Consumerism in Modern Brand Strategies</h4>
+                                <span style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 8px;">Reva University National Conference 2025 | Bangalore</span>
+                                <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.4;">Published in the Asian Journal of Management and Commerce (E-ISSN: 2708-4523, P-ISSN: 2708-4515).</p>
+                            </div>
+                            <div style="background: var(--bg-color); border: 1px solid var(--border-color); padding: 16px; border-radius: var(--border-radius-md);">
+                                <h4 style="font-family: var(--font-heading); font-size: 15px; font-weight: 700; margin-bottom: 4px;">Paper: Conversational Assistance for ETL Query and Debugging</h4>
+                                <span style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 8px;">Scope International Journal (SIJSHMT) | ISSN: 2455-068X</span>
+                                <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.4;">Proposed structural approaches for GenAI-powered ingestion and chatbot querying of Airflow and NiFi system logs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">Get In Touch</span>
+                    <h2 class="title">Contact Me</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <h3>Let's Build Something Together.</h3>
+                        <div class="status-badges-container">
+                            <div class="availability-badge">
+                                <span class="pulse-dot"></span> Open to: Full-time · Internship · Freelance
+                            </div>
+                            <div class="location-badge">
+                                <i class="fas fa-map-marker-alt"></i> Preferred: Bangalore · Hyderabad · Chennai
+                            </div>
+                        </div>
+                        <p>I am open to data science roles, Python/FastAPI backend engineering opportunities, and GenAI agent integrations. Reach out and let's construct something amazing!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                                <div class="detail-text">
+                                    <span>Email me at</span>
+                                    <a href="mailto:mounika062002@gmail.com">mounika062002@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="detail-text">
+                                    <span>Base Location</span>
+                                    <span>Andhra Pradesh, India</span>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i class="fas fa-map-pin"></i></div>
+                                <div class="detail-text">
+                                    <span>Preferred Locations</span>
+                                    <span>Bangalore · Hyderabad · Chennai</span>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                                <div class="detail-text">
+                                    <span>Call / WhatsApp</span>
+                                    <a href="tel:+918688166102">+91 8688166102</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links contact-socials">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://hackerrank.com" target="_blank" rel="noopener noreferrer" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                            <a href="https://in.pinterest.com/aiwithmouni/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel">
+                        <form id="contact-form" class="contact-form" autocomplete="off">
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="form-name">Name</label>
+                                    <input type="text" id="form-name" required placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email</label>
+                                    <input type="email" id="form-email" required placeholder="Your Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" required placeholder="Project Inquiry / Job Opportunity">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="btn-submit">
+                                Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                            <div class="form-feedback" id="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Mounika K. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="back-to-top" aria-label="Scroll to Top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js?v=1.3"></script>
+</body>
+</html>
