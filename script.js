@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // HERO TYPING ANIMATION
     // ==========================================
     const typingTextElement = document.getElementById('typing-text');
-    const words = ["Data Scientist", "Aspiring AI Engineer", "Backend Developer", "Machine Learning Enthusiast"];
+    const words = ["Data Scientist", "Aspiring AI Engineer", "Backend Developer", "Machine Learning Enthusiast", "Python Developer", "Data Storyteller", "Tech Enthusiast", "Lifelong Learner"];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
